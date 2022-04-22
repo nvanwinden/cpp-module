@@ -56,7 +56,7 @@ void	FragTrap::attack( const std::string& target ) {
 		return (displayMessage(this->_name, " is dead and unable to attack"));
 	if (this->_energyPoints == 0)
 		return (displayMessage(this->_name, " has no energy points left to attack"));
-	std::cout << "ScavTrap [" << this->_name << "] attacks [" << target <<
+	std::cout << "FragTrap [" << this->_name << "] attacks [" << target <<
 	"] causing " << this->_attackDamage << " points of damage!" << std::endl;
 	this->_energyPoints -= 1;
 	return ;
