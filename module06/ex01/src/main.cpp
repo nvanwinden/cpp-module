@@ -23,5 +23,7 @@ int main ( void ) {
 	std::cout << "Name member: " << member->getName() << std::endl;
 	std::cout << "Age member: " << member->getAge() << std::endl << std::endl;
 
+	delete member;
+
 	return (0);
 }
